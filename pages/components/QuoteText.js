@@ -24,7 +24,7 @@ const QuoteText = () => {
 
         return (
         <div>
-            <h2 id="text" className={styles.quotetext}><FaQuoteLeft size="1em" className={styles.quoteicon}/>{quote}</h2>
+            <h2 id="text" className={`${styles.quotetext} ${styles.animated}`}><FaQuoteLeft size="1em" className={styles.quoteicon}/>{quote}</h2>
             <p id="author" className={styles.author}>- {author}</p>
             <div className={styles.buttons}>
                 <button id="new-quote" className={styles.newquotebutton} onClick={()=>{getRandomQuote()}}>New Quote</button>
