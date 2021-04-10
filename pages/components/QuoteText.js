@@ -28,7 +28,7 @@ const QuoteText = () => {
             <p id="author" className={styles.author}>- {author}</p>
             <div className={styles.buttons}>
                 <button id="new-quote" className={styles.newquotebutton} onClick={()=>{getRandomQuote()}}>New Quote</button>
-                <a id="tweet-quote" target="_blank" href="twitter.com/intent/tweet"><FaTwitter  size="1.5em" className={styles.twitter}/></a>
+                <a id="tweet-quote" target="_blank" href="https://twitter.com/intent/tweet"><FaTwitter  size="1.5em" className={styles.twitter}/></a>
             </div>
         </div>
       );
